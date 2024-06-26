@@ -1,7 +1,7 @@
 {
   packageOverrides = pkgs: with pkgs; {
     myPackages = pkgs.buildEnv {
-      name = "mischa-tools";
+      name = "dotfiles-dev";
       paths = [
         bash-completion
         neovim
@@ -12,10 +12,6 @@
         ripgrep
         fzf
         lazygit
-        kubectl
-        kubectx
-        k9s
-        fluxcd
       ];
     };
   };
