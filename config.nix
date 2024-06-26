@@ -3,8 +3,9 @@
     myPackages = pkgs.buildEnv {
       name = "aztfmods";
       paths = [
-        go
-        nodejs_22
+        node
+        npm
+        neovim
         starship
         fd
         ripgrep
