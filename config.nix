@@ -15,7 +15,6 @@
         tenv
         zoxide
         fzf
-        lazygit
         eza
         dive
       ];
