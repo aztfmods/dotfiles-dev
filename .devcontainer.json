@@ -1,7 +1,6 @@
 {
-  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  "image": "mcr.microsoft.com/devcontainers/base:debian",
   "features": {
     "ghcr.io/devcontainers/features/nix:1": {}
-  },
-  "postCreateCommand": "sudo apt-get update && sudo apt-get install -y zsh && sudo chsh -s $(which zsh) ${USER} && cp /etc/skel/.zshrc ${HOME}/.zshrc"
+  }
 }
