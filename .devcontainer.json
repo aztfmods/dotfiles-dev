@@ -3,5 +3,5 @@
   "features": {
     "ghcr.io/devcontainers/features/nix:1": {}
   },
-  "postCreateCommand": "/bin/bash ~/Documents/workspaces/public/dotfiles-dev/setup"
+  "postCreateCommand": "/bin/bash /home/vscode/Documents/workspaces/public/dotfiles-dev/setup"
 }
