@@ -5,13 +5,19 @@
       paths = [
         bash-completion
         neovim
+        gnused
+        cmake
         go
         nodejs_22
         starship
         fd
         ripgrep
+        tenv
+        zoxide
         fzf
         lazygit
+        eza
+        dive
       ];
     };
   };
