@@ -1,12 +1,4 @@
 #!/bin/bash
-
-# Install Zsh
-apt-get update
-apt-get install -y zsh
-
-# Change the default shell to Zsh for the root user
-chsh -s $(which zsh)
-
 # Setup configuration directories
 export XDG_CONFIG_HOME="$HOME/.config"
 mkdir -p "$XDG_CONFIG_HOME"
