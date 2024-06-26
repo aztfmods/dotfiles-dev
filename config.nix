@@ -16,6 +16,7 @@
         zoxide
         fzf
         eza
+        zsh
         dive
       ];
     };
