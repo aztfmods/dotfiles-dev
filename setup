@@ -1,4 +1,17 @@
 #!/bin/bash
+
+# Set locale
+locale-gen en_US.UTF-8
+update-locale LANG=en_US.UTF-8
+
+# Set environment variables
+echo 'export LANG=en_US.UTF-8' >> ~/.bashrc
+echo 'export LANGUAGE=en_US:en' >> ~/.bashrc
+echo 'export LC_ALL=en_US.UTF-8' >> ~/.bashrc
+echo 'export TERM=xterm-256color' >> ~/.bashrc
+
+# Source bashrc to apply changes
+source ~/.bashrc
 export XDG_CONFIG_HOME="$HOME"/.config
 mkdir -p "$XDG_CONFIG_HOME"
 mkdir -p "$XDG_CONFIG_HOME"/nixpkgs
