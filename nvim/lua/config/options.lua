@@ -22,7 +22,7 @@ vim.opt.smartindent = true                      -- make indenting smarter again
 vim.opt.splitbelow = true                       -- force all horizontal splits to go below current window
 vim.opt.splitright = true                       -- force all vertical splits to go to the right of current window
 vim.opt.swapfile = false                        -- creates a swapfile
-vim.opt.termguicolors = true                    -- set term gui colors (most terminals support this)
+vim.opt.termguicolors = false                    -- set term gui colors (most terminals support this)
 vim.opt.timeoutlen = 1000                       -- time to wait for a mapped sequence to complete (in milliseconds)
 vim.opt.undofile = true                         -- enable persistent undo
 vim.opt.updatetime = 100                        -- faster completion (4000ms default)
@@ -43,6 +43,6 @@ vim.opt.sidescrolloff = 8                       -- Makes sure there are always e
 vim.opt.laststatus = 3                          -- Always display the status line
 vim.opt.showcmd = false                         -- Don't show the command in the last line
 vim.opt.ruler = false                           -- Don't show the ruler
-vim.opt.guifont = "monospace:h17"               -- the font used in graphical neovim applications
+--vim.opt.guifont = "monospace:h17"               -- the font used in graphical neovim applications
 vim.opt.title = true                            -- set the title of window to the value of the titlestring
 vim.opt.fillchars = { vert = ' ', horiz = ' ' } -- make split lines diseapear
