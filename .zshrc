@@ -95,13 +95,13 @@ _fzf_compgen_dir() {
 }
 
 # ssh agent and keys
-if ! pgrep -u "$USER" ssh-agent > /dev/null; then
-    eval "$(ssh-agent -s)"
-fi
+#if ! pgrep -u "$USER" ssh-agent > /dev/null; then
+    #eval "$(ssh-agent -s)"
+#fi
 
-for key in ~/.ssh/id_rsa_*; do
-    [[ -f $key ]] && ssh-add -q "$key" 2>/dev/null
-done
+#for key in ~/.ssh/id_rsa_*; do
+    #[[ -f $key ]] && ssh-add -q "$key" 2>/dev/null
+#done
 
 # https://github.com/junegunn/fzf-git.sh
 source ~/fzf-git.sh/fzf-git.sh
