@@ -104,4 +104,4 @@ _fzf_compgen_dir() {
 #done
 
 # https://github.com/junegunn/fzf-git.sh
-source ~/fzf-git.sh/fzf-git.sh
+#source ~/fzf-git.sh/fzf-git.sh
