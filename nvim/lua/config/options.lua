@@ -46,3 +46,9 @@ vim.opt.ruler = false                           -- Don't show the ruler
 vim.opt.guifont = "monospace:h17"               -- the font used in graphical neovim applications
 vim.opt.title = true                            -- set the title of window to the value of the titlestring
 vim.opt.fillchars = { vert = ' ', horiz = ' ' } -- make split lines diseapear
+
+-- scrolling
+vim.opt.number = false
+vim.opt.relativenumber = false
+vim.opt.scrolloff = 8
+vim.opt.linebreak = true
