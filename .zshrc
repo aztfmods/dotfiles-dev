@@ -1,10 +1,5 @@
 # path and environment settings
-#export PATH="$GOENV_ROOT/bin:$PATH"
-#eval "$(goenv init -)"
-#export PATH="$GOENV_ROOT/shims:$PATH"
-
 export ZSH="$HOME/.oh-my-zsh"
-#export PATH="/opt/homebrew/bin:$PATH"
 export HOMEBREW_NO_EMOJI=1
 export GREP_OPTIONS="--color=never"
 export TF_CLI_ARGS="-no-color"
@@ -93,15 +88,3 @@ _fzf_compgen_path() {
 _fzf_compgen_dir() {
   fd --type d --hidden --exclude .git . "$1"
 }
-
-# ssh agent and keys
-#if ! pgrep -u "$USER" ssh-agent > /dev/null; then
-    #eval "$(ssh-agent -s)"
-#fi
-
-#for key in ~/.ssh/id_rsa_*; do
-    #[[ -f $key ]] && ssh-add -q "$key" 2>/dev/null
-#done
-
-# https://github.com/junegunn/fzf-git.sh
-#source ~/fzf-git.sh/fzf-git.sh

@@ -16,8 +16,6 @@
         zoxide
         fzf
         eza
-        tmux
-        vimPlugins.nvim-treesitter-textobjects
         zsh
         dive
       ];
