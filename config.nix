@@ -11,6 +11,7 @@
         nodejs_22
         starship
         fd
+        zsh-autosuggestions
         ripgrep
         tenv
         zoxide
