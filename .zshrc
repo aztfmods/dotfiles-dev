@@ -1,11 +1,10 @@
 # path and environment settings
-export GOENV_ROOT="$HOME/.goenv"
-export PATH="$GOENV_ROOT/bin:$PATH"
-eval "$(goenv init -)"
-export PATH="$GOENV_ROOT/shims:$PATH"
+#export PATH="$GOENV_ROOT/bin:$PATH"
+#eval "$(goenv init -)"
+#export PATH="$GOENV_ROOT/shims:$PATH"
 
 export ZSH="$HOME/.oh-my-zsh"
-export PATH="/opt/homebrew/bin:$PATH"
+#export PATH="/opt/homebrew/bin:$PATH"
 export HOMEBREW_NO_EMOJI=1
 export GREP_OPTIONS="--color=never"
 export TF_CLI_ARGS="-no-color"
@@ -73,7 +72,7 @@ source $ZSH/oh-my-zsh.sh
 [[ -s "/Users/dkool/.gvm/scripts/gvm" ]] && source "/Users/dkool/.gvm/scripts/gvm"
 eval "$(starship init zsh)"
 eval "$(zoxide init zsh)"
-source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+#source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 # set up fzf key bindings and fuzzy completion
 eval "$(fzf --zsh)"
